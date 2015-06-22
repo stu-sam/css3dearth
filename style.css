@@ -47,7 +47,22 @@
 	
 }
 
+@keyframes rotating {
+  0% {background-position: 0 0;}
+  100% {background-position: 1100px 0;}
+}
+
 @-webkit-keyframes rotating {
+  0% {background-position: 0 0;}
+  100% {background-position: 1100px 0;}
+}
+
+@-moz-keyframes rotating {
+  0% {background-position: 0 0;}
+  100% {background-position: 1100px 0;}
+}
+
+@-o-keyframes rotating {
   0% {background-position: 0 0;}
   100% {background-position: 1100px 0;}
 }
